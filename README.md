@@ -36,5 +36,9 @@ Here is a sample result/output from the program/model
 
 
 ## Result
-![image](https://user-images.githubusercontent.com/68383273/191816229-0b4ca2ba-5119-467f-b7c6-0460f40243e0.png)
+![image](https://user-images.githubusercontent.com/68383273/191825773-a92bae63-ee70-4a34-b61f-b8a975202399.png)
+
+
+![image](https://user-images.githubusercontent.com/68383273/191825717-d00e4f58-6e15-4eaa-8a1f-6602d94eda14.png)
+
 

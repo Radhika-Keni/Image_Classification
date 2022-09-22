@@ -30,8 +30,9 @@ The code aims at building a image classfifier
 ## Sample Ouput/Prediction :
 Here is a sample result/output from the program/model 
 
-[![image]
-[![image]]
+![image](https://user-images.githubusercontent.com/68383273/191818483-b4d6ade9-ad51-4bb4-9452-347d395e25de.png)
+![image](https://user-images.githubusercontent.com/68383273/191818584-c3b1abc4-6167-49d6-bb7b-5fce0a87dbab.png)
+
 
 
 ## Result

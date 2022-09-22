@@ -1,33 +1,28 @@
 # Image_Classification
 Build an Image classification model for flower species
 
-# Object_Detection_For_Faces
-Build a Face Detection model 
-
 
 ## Objective of this notebook
-- The purpose of this notebook is to build a Face Detection model 
+- The purpose of this notebook is to build a Image classifier which would be capable of predicting the species of flowers 
 - Details of the **problem statement**  , **data set** ,  **summary of the code/solution**  , **sample output/Prediction** from the program and **final result** of the project are listed in the sections to follow.
 
 ## Problem Statement 
-Computer Vision can be used to detect faces which is useful in multiple domains.In this particular use case , a company wants to automate the process of cast and crew information in each scene from a movie such that when a user pauses on the movie and clicks on cast information button, the app will show details of the actor in the scene.
+Computer Vision can be used to classify images .In this partcular use case , a university conducting research involving the understanding of the characteristics of flowers,require an automation which can create a classifier capable of determining a flower’s species from a photo
 
 
 ## Data Description:
-The dataset comprises of images and its mask where there is a human face
+The dataset comprises of images from 17 plant species. It can be downloaded from TensorFlow [tflearn.datasets.oxflower17 as oxflower17 ]
 
 ## Domain:
-  Entertainment
+Botanical research
 
 ## Summary of the Solution/Code:
-The code aims at building a face detection model with an additional requirement of displaying the the face object with a mask.
+The code aims at building a image classfifier
 - We begin by doing an Exploratory Data analyses and Visualisation/viewing of the images 
 - We then do the required pre-processing for the data to make it compatible with the model to be built.
-- We have been given only the bounding box as labels in training data ,masked images for/as labels have not been given.Since we have been specifically asked to create   face masks , we will be using the bounding box it self as the mask and treat this problem as a sematic segmentation problem.
-- We will use an algorithm that does semantic segmentation to model the same .We will be using Mask-RCNN.
-- We build the model using a reliable third part implementation of Mask-RCNN(Mask R-CNN Project developed by Matterport) which has been built on top of the Keras deep learning framework
-- Essentialy , what we do in the code is load a pre-trained Mask-RCNN model , omit the top layers . 
-- We then re-train the model with "faces" data & tune to get the best results/minimum loss
+- Essentially , the approach used in this worksheet is to try out multiple algorithms to build the classifier and choose the best contender
+- Multiple 'traditional' ML algorithms like LR,KNN,SVM,Random Forest,Ada Boost, Gradient Boostare tried and results are documented
+- We then try deep learning algorithms like ANN and a CNN(build both the ANN and CNN ourselves) and try to solve the problem at hand .Results are documented
 - Finally we evaluate our model on Test data with the chosen metric as mAp.
 - Refer **python worksheet  Project_P1_FaceMaskDetection.ipynb** for the solution
 

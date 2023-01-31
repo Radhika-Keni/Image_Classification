@@ -4,6 +4,7 @@ Build an Image classification model for flower species
 
 ## Objective of this notebook
 - The purpose of this notebook is to build a Image classifier which would be capable of predicting the species of flowers 
+- We compare and contrast the performance of various machine learning algorithms VS Deep learning algorithms in an effort to demostrate how traditional ML algorithms perform poorly on Image Data
 - Details of the **problem statement**  , **data set** ,  **summary of the code/solution**  , **sample output/Prediction** from the program and **final result** of the project are listed in the sections to follow.
 
 ## Problem Statement 
@@ -40,5 +41,9 @@ Here is a sample result/output from the program/model
 
 
 ![image](https://user-images.githubusercontent.com/68383273/191825717-d00e4f58-6e15-4eaa-8a1f-6602d94eda14.png)
+
+## References & Guidance
+- PGP Course Material
+- Evaluator Feedback
 
 
